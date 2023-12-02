@@ -1,0 +1,25 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../11.13_all_files.srcs/sources_1/ip/blk_mem_gen_1/sim/blk_mem_gen_1.v" \
+"../../../../11.13_all_files.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" \
+"../../../../11.13_all_files.srcs/sources_1/ip/ila_0/sim/ila_0.v" \
+"../../../../11.13_all_files.srcs/sources_1/imports/czy_2023.09.21/alu.v" \
+"../../../../11.13_all_files.srcs/sources_1/imports/czy_2023.09.21/alu_mux.v" \
+"../../../../11.13_all_files.srcs/sources_1/imports/czy_2023.09.21/control_unit.v" \
+"../../../../11.13_all_files.srcs/sources_1/imports/czy_2023.09.21/cpu.v" \
+"../../../../11.13_all_files.srcs/sources_1/new/data_memory.v" \
+"../../../../11.13_all_files.srcs/sources_1/imports/czy_2023.09.21/data_path.v" \
+"../../../../11.13_all_files.srcs/sources_1/new/instruction_memory.v" \
+"../../../../11.13_all_files.srcs/sources_1/imports/czy_2023.09.21/ir.v" \
+"../../../../11.13_all_files.srcs/sources_1/imports/czy_2023.09.21/pc.v" \
+"../../../../11.13_all_files.srcs/sources_1/imports/czy_2023.09.21/reg_group.v" \
+"../../../../11.13_all_files.srcs/sources_1/new/reg_group_mux.v" \
+"../../../../11.13_all_files.srcs/sources_1/imports/czy_2023.09.21/register.v" \
+"../../../../11.13_all_files.srcs/sources_1/imports/czy_2023.09.21/state_transition.v" \
+"../../../../11.13_all_files.srcs/sim_1/new/tb_cpu_with_mem.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

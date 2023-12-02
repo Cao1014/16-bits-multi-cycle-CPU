@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Dec  2 18:09:34 2023
+# Process ID: 14812
+# Current directory: E:/Vivado2017/Lab/16_bits_multi_cycle_CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3868 E:\Vivado2017\Lab\16_bits_multi_cycle_CPU\16_bits_multi_cycle_CPU.xpr
+# Log file: E:/Vivado2017/Lab/16_bits_multi_cycle_CPU/vivado.log
+# Journal file: E:/Vivado2017/Lab/16_bits_multi_cycle_CPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Vivado2017/Lab/16_bits_multi_cycle_CPU/16_bits_multi_cycle_CPU.xpr
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+reset_run synth_1
+reset_run blk_mem_gen_1_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+launch_runs impl_1 -to_step write_bitstream -jobs 16

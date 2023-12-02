@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"tb_cpu_no_ram_time_synth.v" \
+"../../../../../czy_2023.9.21.srcs/sim_1/new/tb_cpu_no_ram.v" \
+
+# Do not sort compile order
+nosort

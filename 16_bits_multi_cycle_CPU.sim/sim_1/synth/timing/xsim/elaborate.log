@@ -1,0 +1,66 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado2017/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 3b2f80ea07364526bc8707021d253377 --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot tb_cpu_no_ram_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.tb_cpu_no_ram xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+INFO: [XSIM 43-3451] SDF backannotation process started with SDF file "tb_cpu_no_ram_time_synth.sdf", for root module "tb_cpu_no_ram/test_cpu".
+INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file "tb_cpu_no_ram_time_synth.sdf", for root module "tb_cpu_no_ram/test_cpu".
+Time Resolution for simulation is 1ps
+Compiling module simprims_ver.BUFG
+Compiling module simprims_ver.IBUF
+Compiling module simprims_ver.FDPE_default
+Compiling module simprims_ver.FDCE_default
+Compiling module simprims_ver.x_lut3_mux8
+Compiling module simprims_ver.LUT3
+Compiling module xil_defaultlib.ir
+Compiling module simprims_ver.latchsre_ldce
+Compiling module simprims_ver.LDCE
+Compiling module simprims_ver.LUT6
+Compiling module simprims_ver.LUT5
+Compiling module simprims_ver.LUT4
+Compiling module simprims_ver.x_lut2_mux4
+Compiling module simprims_ver.LUT2
+Compiling module xil_defaultlib.state_transition
+Compiling module xil_defaultlib.control_unit
+Compiling module simprims_ver.GND
+Compiling module simprims_ver.RB18_INTERNAL_VLOG(RDADDR_COLLIS...
+Compiling module simprims_ver.RAMB18E1(INIT_00=256'b0111100000...
+Compiling module xil_defaultlib.blk_mem_gen_1_blk_mem_gen_prim_w...
+Compiling module xil_defaultlib.blk_mem_gen_1_blk_mem_gen_prim_w...
+Compiling module xil_defaultlib.blk_mem_gen_1_blk_mem_gen_generi...
+Compiling module xil_defaultlib.blk_mem_gen_1_blk_mem_gen_top
+Compiling module xil_defaultlib.blk_mem_gen_1_blk_mem_gen_v8_4_1...
+Compiling module xil_defaultlib.blk_mem_gen_1_blk_mem_gen_v8_4_1
+Compiling module xil_defaultlib.blk_mem_gen_1
+Compiling module simprims_ver.FDRE_default
+Compiling module xil_defaultlib.data_memory_module
+Compiling module simprims_ver.CARRY4
+Compiling module xil_defaultlib.alu
+Compiling module simprims_ver.x_lut1_mux2
+Compiling module simprims_ver.LUT1
+Compiling module xil_defaultlib.alu_mux
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.register
+Compiling module xil_defaultlib.register_0
+Compiling module xil_defaultlib.register_1
+Compiling module xil_defaultlib.register_2
+Compiling module xil_defaultlib.reg_group
+Compiling module xil_defaultlib.data_path
+Compiling module simprims_ver.RB18_INTERNAL_VLOG(RDADDR_COLLIS...
+Compiling module simprims_ver.RAMB18E1(INIT_00=256'b0111100000...
+Compiling module xil_defaultlib.blk_mem_gen_0_blk_mem_gen_prim_w...
+Compiling module xil_defaultlib.blk_mem_gen_0_blk_mem_gen_prim_w...
+Compiling module xil_defaultlib.blk_mem_gen_0_blk_mem_gen_generi...
+Compiling module xil_defaultlib.blk_mem_gen_0_blk_mem_gen_top
+Compiling module xil_defaultlib.blk_mem_gen_0_blk_mem_gen_v8_4_1...
+Compiling module xil_defaultlib.blk_mem_gen_0_blk_mem_gen_v8_4_1
+Compiling module xil_defaultlib.blk_mem_gen_0
+Compiling module xil_defaultlib.instruction_memory_module
+Compiling module xil_defaultlib.reg_group_mux
+Compiling module simprims_ver.OBUF
+Compiling module xil_defaultlib.cpu
+Compiling module xil_defaultlib.tb_cpu_no_ram
+Compiling module xil_defaultlib.glbl
