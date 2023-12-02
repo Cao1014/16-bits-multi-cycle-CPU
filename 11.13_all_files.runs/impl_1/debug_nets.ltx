@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<probeData version="2" minor="2">
+  <probeset name="EDA_PROBESET" active="true">
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="BSCAN_SWITCH_INDEX" value="0"/>
+        <Option Id="CORE_LOCATION" value="1:0"/>
+        <Option Id="CORE_UUID" value="056d35d9c33d56038c64feff102145d1"/>
+        <Option Id="HUB_CLK_INPUT_FREQ_HZ" value="50000000"/>
+        <Option Id="HW_ILA" value="top1/cpu1/my_lia_debug"/>
+        <Option Id="PROBE_PORT" value="0"/>
+        <Option Id="PROBE_PORT_BITS" value="0"/>
+        <Option Id="PROBE_PORT_BIT_COUNT" value="1"/>
+      </probeOptions>
+      <nets>
+        <net name="top1/cpu1/rst"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="BSCAN_SWITCH_INDEX" value="0"/>
+        <Option Id="CORE_LOCATION" value="1:0"/>
+        <Option Id="CORE_UUID" value="056d35d9c33d56038c64feff102145d1"/>
+        <Option Id="HUB_CLK_INPUT_FREQ_HZ" value="50000000"/>
+        <Option Id="HW_ILA" value="top1/cpu1/my_lia_debug"/>
+        <Option Id="PROBE_PORT" value="1"/>
+        <Option Id="PROBE_PORT_BITS" value="0"/>
+        <Option Id="PROBE_PORT_BIT_COUNT" value="1"/>
+      </probeOptions>
+      <nets>
+        <net name="top1/cpu1/clk_slow"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="BSCAN_SWITCH_INDEX" value="0"/>
+        <Option Id="CORE_LOCATION" value="1:0"/>
+        <Option Id="CORE_UUID" value="056d35d9c33d56038c64feff102145d1"/>
+        <Option Id="HUB_CLK_INPUT_FREQ_HZ" value="50000000"/>
+        <Option Id="HW_ILA" value="top1/cpu1/my_lia_debug"/>
+        <Option Id="PROBE_PORT" value="2"/>
+        <Option Id="PROBE_PORT_BITS" value="0"/>
+        <Option Id="PROBE_PORT_BIT_COUNT" value="16"/>
+      </probeOptions>
+      <nets>
+        <net name="top1/cpu1/reg_group_mux_out[15]"/>
+        <net name="top1/cpu1/reg_group_mux_out[14]"/>
+        <net name="top1/cpu1/reg_group_mux_out[13]"/>
+        <net name="top1/cpu1/reg_group_mux_out[12]"/>
+        <net name="top1/cpu1/reg_group_mux_out[11]"/>
+        <net name="top1/cpu1/reg_group_mux_out[10]"/>
+        <net name="top1/cpu1/reg_group_mux_out[9]"/>
+        <net name="top1/cpu1/reg_group_mux_out[8]"/>
+        <net name="top1/cpu1/reg_group_mux_out[7]"/>
+        <net name="top1/cpu1/reg_group_mux_out[6]"/>
+        <net name="top1/cpu1/reg_group_mux_out[5]"/>
+        <net name="top1/cpu1/reg_group_mux_out[4]"/>
+        <net name="top1/cpu1/reg_group_mux_out[3]"/>
+        <net name="top1/cpu1/reg_group_mux_out[2]"/>
+        <net name="top1/cpu1/reg_group_mux_out[1]"/>
+        <net name="top1/cpu1/reg_group_mux_out[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="BSCAN_SWITCH_INDEX" value="0"/>
+        <Option Id="CORE_LOCATION" value="1:0"/>
+        <Option Id="CORE_UUID" value="056d35d9c33d56038c64feff102145d1"/>
+        <Option Id="HUB_CLK_INPUT_FREQ_HZ" value="50000000"/>
+        <Option Id="HW_ILA" value="top1/cpu1/my_lia_debug"/>
+        <Option Id="PROBE_PORT" value="3"/>
+        <Option Id="PROBE_PORT_BITS" value="0"/>
+        <Option Id="PROBE_PORT_BIT_COUNT" value="8"/>
+      </probeOptions>
+      <nets>
+        <net name="top1/cpu1/led_flowing[7]"/>
+        <net name="top1/cpu1/led_flowing[6]"/>
+        <net name="top1/cpu1/led_flowing[5]"/>
+        <net name="top1/cpu1/led_flowing[4]"/>
+        <net name="top1/cpu1/led_flowing[3]"/>
+        <net name="top1/cpu1/led_flowing[2]"/>
+        <net name="top1/cpu1/led_flowing[1]"/>
+        <net name="top1/cpu1/led_flowing[0]"/>
+      </nets>
+    </probe>
+  </probeset>
+</probeData>

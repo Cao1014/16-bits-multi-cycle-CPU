@@ -1,0 +1,22 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+E:/Vivado2017/Lab/11.14_all_files/11.13_all_files.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+E:/Vivado2017/Lab/11.14_all_files/11.13_all_files.srcs/sim_1/new/tb_cpu_with_mem.v,1699527708,verilog,,,,tb_cpu_with_mem,,,,,,,,
+E:/Vivado2017/Lab/11.14_all_files/11.13_all_files.srcs/sources_1/imports/czy_2023.09.21/alu.v,1699804032,verilog,,E:/Vivado2017/Lab/11.14_all_files/11.13_all_files.srcs/sources_1/imports/czy_2023.09.21/alu_mux.v,,alu,,,,,,,,
+E:/Vivado2017/Lab/11.14_all_files/11.13_all_files.srcs/sources_1/imports/czy_2023.09.21/alu_mux.v,1541222974,verilog,,E:/Vivado2017/Lab/11.14_all_files/11.13_all_files.srcs/sources_1/imports/czy_2023.09.21/control_unit.v,,alu_mux,,,,,,,,
+E:/Vivado2017/Lab/11.14_all_files/11.13_all_files.srcs/sources_1/imports/czy_2023.09.21/control_unit.v,1699805933,verilog,,E:/Vivado2017/Lab/11.14_all_files/11.13_all_files.srcs/sources_1/imports/czy_2023.09.21/cpu.v,,control_unit,,,,,,,,
+E:/Vivado2017/Lab/11.14_all_files/11.13_all_files.srcs/sources_1/imports/czy_2023.09.21/cpu.v,1699951011,verilog,,E:/Vivado2017/Lab/11.14_all_files/11.13_all_files.srcs/sources_1/new/data_memory.v,,cpu,,,,,,,,
+E:/Vivado2017/Lab/11.14_all_files/11.13_all_files.srcs/sources_1/imports/czy_2023.09.21/data_path.v,1699956267,verilog,,E:/Vivado2017/Lab/11.14_all_files/11.13_all_files.srcs/sources_1/new/instruction_memory.v,,data_path,,,,,,,,
+E:/Vivado2017/Lab/11.14_all_files/11.13_all_files.srcs/sources_1/imports/czy_2023.09.21/ir.v,1697682358,verilog,,E:/Vivado2017/Lab/11.14_all_files/11.13_all_files.srcs/sources_1/imports/czy_2023.09.21/pc.v,,ir,,,,,,,,
+E:/Vivado2017/Lab/11.14_all_files/11.13_all_files.srcs/sources_1/imports/czy_2023.09.21/pc.v,1699544927,verilog,,E:/Vivado2017/Lab/11.14_all_files/11.13_all_files.srcs/sources_1/imports/czy_2023.09.21/reg_group.v,,pc,,,,,,,,
+E:/Vivado2017/Lab/11.14_all_files/11.13_all_files.srcs/sources_1/imports/czy_2023.09.21/reg_group.v,1699367929,verilog,,E:/Vivado2017/Lab/11.14_all_files/11.13_all_files.srcs/sources_1/new/reg_group_mux.v,,reg_group,,,,,,,,
+E:/Vivado2017/Lab/11.14_all_files/11.13_all_files.srcs/sources_1/imports/czy_2023.09.21/register.v,1699359803,verilog,,E:/Vivado2017/Lab/11.14_all_files/11.13_all_files.srcs/sources_1/imports/czy_2023.09.21/state_transition.v,,register,,,,,,,,
+E:/Vivado2017/Lab/11.14_all_files/11.13_all_files.srcs/sources_1/imports/czy_2023.09.21/state_transition.v,1699881692,verilog,,E:/Vivado2017/Lab/11.14_all_files/11.13_all_files.srcs/sim_1/new/tb_cpu_with_mem.v,,state_transition,,,,,,,,
+E:/Vivado2017/Lab/11.14_all_files/11.13_all_files.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,1699542038,verilog,,E:/Vivado2017/Lab/11.14_all_files/11.13_all_files.srcs/sources_1/ip/ila_0/sim/ila_0.v,,blk_mem_gen_0,,,,,,,,
+E:/Vivado2017/Lab/11.14_all_files/11.13_all_files.srcs/sources_1/ip/blk_mem_gen_1/sim/blk_mem_gen_1.v,1699541911,verilog,,E:/Vivado2017/Lab/11.14_all_files/11.13_all_files.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,,blk_mem_gen_1,,,,,,,,
+E:/Vivado2017/Lab/11.14_all_files/11.13_all_files.srcs/sources_1/ip/ila_0/sim/ila_0.v,1697565804,verilog,,E:/Vivado2017/Lab/11.14_all_files/11.13_all_files.srcs/sources_1/imports/czy_2023.09.21/alu.v,,ila_0,,,,,,,,
+E:/Vivado2017/Lab/11.14_all_files/11.13_all_files.srcs/sources_1/new/data_memory.v,1699805855,verilog,,E:/Vivado2017/Lab/11.14_all_files/11.13_all_files.srcs/sources_1/imports/czy_2023.09.21/data_path.v,,data_memory_module,,,,,,,,
+E:/Vivado2017/Lab/11.14_all_files/11.13_all_files.srcs/sources_1/new/instruction_memory.v,1697683159,verilog,,E:/Vivado2017/Lab/11.14_all_files/11.13_all_files.srcs/sources_1/imports/czy_2023.09.21/ir.v,,instruction_memory_module,,,,,,,,
+E:/Vivado2017/Lab/11.14_all_files/11.13_all_files.srcs/sources_1/new/reg_group_mux.v,1698239497,verilog,,E:/Vivado2017/Lab/11.14_all_files/11.13_all_files.srcs/sources_1/imports/czy_2023.09.21/register.v,,reg_group_mux,,,,,,,,

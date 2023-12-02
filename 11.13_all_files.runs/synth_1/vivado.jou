@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Dec  1 16:33:24 2023
+# Process ID: 21016
+# Current directory: E:/Vivado2017/Lab/11.14_7segment_display/11.13_all_files.runs/synth_1
+# Command line: vivado.exe -log structure.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source structure.tcl
+# Log file: E:/Vivado2017/Lab/11.14_7segment_display/11.13_all_files.runs/synth_1/structure.vds
+# Journal file: E:/Vivado2017/Lab/11.14_7segment_display/11.13_all_files.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source structure.tcl -notrace

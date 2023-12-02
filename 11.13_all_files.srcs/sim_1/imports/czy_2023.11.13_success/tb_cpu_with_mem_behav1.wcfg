@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_cpu_with_mem_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_cpu_with_mem" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2090004590000fs"></ZoomStartTime>
+      <ZoomEndTime time="2090005740001fs"></ZoomEndTime>
+      <Cursor1Time time="2090005000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="171"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="42" />
+   <wvobject fp_name="/tb_cpu_with_mem/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/en_in" type="logic">
+      <obj_property name="ElementShortName">en_in</obj_property>
+      <obj_property name="ObjectShortName">en_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/Tclk" type="array">
+      <obj_property name="ElementShortName">Tclk[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Tclk[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/control_unit1/state_transition1/en1" type="logic">
+      <obj_property name="ElementShortName">en1</obj_property>
+      <obj_property name="ObjectShortName">en1</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/control_unit1/state_transition1/en2" type="logic">
+      <obj_property name="ElementShortName">en2</obj_property>
+      <obj_property name="ObjectShortName">en2</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/control_unit1/state_transition1/en3" type="logic">
+      <obj_property name="ElementShortName">en3</obj_property>
+      <obj_property name="ObjectShortName">en3</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/control_unit1/state_transition1/en_in" type="logic">
+      <obj_property name="ElementShortName">en_in</obj_property>
+      <obj_property name="ObjectShortName">en_in</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/control_unit1/state_transition1/rd" type="array">
+      <obj_property name="ElementShortName">rd[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[1:0]</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/control_unit1/state_transition1/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/control_unit1/state_transition1/current_state" type="array">
+      <obj_property name="ElementShortName">current_state[4:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[4:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/control_unit1/state_transition1/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[4:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[4:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/control_unit1/state_transition1/en_fetch_pulse" type="logic">
+      <obj_property name="ElementShortName">en_fetch_pulse</obj_property>
+      <obj_property name="ObjectShortName">en_fetch_pulse</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/control_unit1/state_transition1/en_group_pulse" type="logic">
+      <obj_property name="ElementShortName">en_group_pulse</obj_property>
+      <obj_property name="ObjectShortName">en_group_pulse</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/control_unit1/state_transition1/en_pc_pulse" type="logic">
+      <obj_property name="ElementShortName">en_pc_pulse</obj_property>
+      <obj_property name="ObjectShortName">en_pc_pulse</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/control_unit1/state_transition1/ram_select" type="logic">
+      <obj_property name="ElementShortName">ram_select</obj_property>
+      <obj_property name="ObjectShortName">ram_select</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/control_unit1/state_transition1/pc_ctrl" type="array">
+      <obj_property name="ElementShortName">pc_ctrl[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_ctrl[1:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/control_unit1/state_transition1/alu_func" type="array">
+      <obj_property name="ElementShortName">alu_func[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_func[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/control_unit1/state_transition1/reg_en" type="array">
+      <obj_property name="ElementShortName">reg_en[3:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_en[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/instruction_memory1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/instruction_memory1/en_rom_in" type="logic">
+      <obj_property name="ElementShortName">en_rom_in</obj_property>
+      <obj_property name="ObjectShortName">en_rom_in</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/instruction_memory1/addr" type="array">
+      <obj_property name="ElementShortName">addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/instruction_memory1/ins" type="array">
+      <obj_property name="ElementShortName">ins[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ins[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/instruction_memory1/en_rom_out" type="logic">
+      <obj_property name="ElementShortName">en_rom_out</obj_property>
+      <obj_property name="ObjectShortName">en_rom_out</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/data_memory1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/data_memory1/ce" type="logic">
+      <obj_property name="ElementShortName">ce</obj_property>
+      <obj_property name="ObjectShortName">ce</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/data_memory1/we" type="logic">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/data_memory1/en_ram_out" type="logic">
+      <obj_property name="ElementShortName">en_ram_out</obj_property>
+      <obj_property name="ObjectShortName">en_ram_out</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/data_memory1/data_addr" type="array">
+      <obj_property name="ElementShortName">data_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_addr[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/data_memory1/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/data_memory1/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/data_path1/alu1/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+      <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/data_path1/alu1/en_in" type="logic">
+      <obj_property name="ElementShortName">en_in</obj_property>
+      <obj_property name="ObjectShortName">en_in</obj_property>
+      <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/data_path1/alu1/en_out" type="logic">
+      <obj_property name="ElementShortName">en_out</obj_property>
+      <obj_property name="ObjectShortName">en_out</obj_property>
+      <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/data_path1/alu1/alu_out" type="array">
+      <obj_property name="ElementShortName">alu_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_out[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/data_path1/alu1/alu_func" type="array">
+      <obj_property name="ElementShortName">alu_func[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_func[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/data_path1/alu1/alu_a" type="array">
+      <obj_property name="ElementShortName">alu_a[15:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_a[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/data_path1/alu1/alu_b" type="array">
+      <obj_property name="ElementShortName">alu_b[15:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_b[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/reg_group_mux1/reg_group_mux_out" type="array">
+      <obj_property name="ElementShortName">reg_group_mux_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_group_mux_out[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/clk_slow" type="logic">
+      <obj_property name="ElementShortName">clk_slow</obj_property>
+      <obj_property name="ObjectShortName">clk_slow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/led_flowing" type="array">
+      <obj_property name="ElementShortName">led_flowing[7:0]</obj_property>
+      <obj_property name="ObjectShortName">led_flowing[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu_with_mem/test_cpu/control_unit1/state_transition1/en_led_display" type="logic">
+      <obj_property name="ElementShortName">en_led_display</obj_property>
+      <obj_property name="ObjectShortName">en_led_display</obj_property>
+   </wvobject>
+</wave_config>

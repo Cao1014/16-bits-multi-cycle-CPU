@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Nov 14 21:35:59 2023
+# Process ID: 15824
+# Current directory: C:/Users/caozhengyang/Desktop/11.13_all_files
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent26088 C:\Users\caozhengyang\Desktop\11.13_all_files\11.13_all_files.xpr
+# Log file: C:/Users/caozhengyang/Desktop/11.13_all_files/vivado.log
+# Journal file: C:/Users/caozhengyang/Desktop/11.13_all_files\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/caozhengyang/Desktop/11.13_all_files/11.13_all_files.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado2017/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:07 . Memory (MB): peak = 974.004 ; gain = 194.664
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 14 21:36:20 2023...
