@@ -9,3 +9,5 @@
 ## Architecture diagram of our CPU
 ![image](https://github.com/Cao1014/16-bits-multi-cycle-CPU/assets/101035289/c2a47ed9-f14b-4314-873f-fd024b322dd0)
 
+## Testbench on Xilinx Zynq7000 FPGA———Successful
+![BC45920EF6ECE24F9638B3D1164C95AB](https://github.com/Cao1014/16-bits-multi-cycle-CPU/assets/101035289/a67f5074-cb8d-4ad6-97d0-8e126f9ef819)
